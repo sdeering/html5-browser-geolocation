@@ -23,58 +23,7 @@
           height: 650px;
         }
       }
-
-      /* BSA */
-      .bsap {
-        position: fixed;
-        top: 30px;
-        right: 10px;
-        width: 300px;
-        z-index: 999;
-      }
-      .close_bsap {
-        position: absolute;
-        z-index: 1000;
-        top: 0;
-        right: 0;
-        padding: 5px 8px;
-      }
   </style>
-
-<!-- BuySellAds Ad Code -->
-<script type="text/javascript">
-(function(){
-  var bsa = document.createElement('script');
-     bsa.type = 'text/javascript';
-     bsa.async = true;
-     bsa.src = 'http://s3.buysellads.com/ac/bsa.js';
-  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
-})();
-</script>
-<!-- End BuySellAds Ad Code -->
-
-<script type="text/javascript">
-(function($)
-{
-
-    $(document).ready(function()
-    {
-          //BSA
-          setTimeout(function()
-          {
-              var close = '<a href="#" class="close_bsap">X</a>';
-              $('.bsap .bsa_it').prepend(close);
-              $('.close_bsap').live('click', function(e)
-              {
-                  e.preventDefault();
-                  $(this).closest('.bsap').hide();
-              });
-          }, 2500);
-
-    });
-
-})(jQuery);
-</script>
 
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
     <script type="text/javascript">
@@ -131,25 +80,8 @@
     </script>
   </head>
   <body>
-    <!-- BuySellAds Zone Code -->
-<div id="bsap_1285666" class="bsarocks bsap_ea957971a5e1fed9f25dd8e7a8b9f59e"></div>
-<!-- End BuySellAds Zone Code -->
-    <div id="map_canvas"></div>
 
-
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-44788261-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
+    <!-- copyright samdeering.com 2013 -->
 
   </body>
 </html>
